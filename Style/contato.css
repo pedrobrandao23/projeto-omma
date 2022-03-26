@@ -1,5 +1,5 @@
 main .banner-contato {
-    background: url(./Assets/Images/banner_contato.png) 50% 0 no-repeat;
+    background: url(../Assets/Images/banner_contato.png) 50% 0 no-repeat;
     max-width: 1440px;
     height: 405px;
     margin-bottom: 97px;
@@ -20,7 +20,7 @@ main > section h2::after {
     content: ' :)';
 }
 form {
-    background-image: url(./Assets/Images/nav_contato.png);
+    background-image: url(../Assets/Images/nav_contato.png);
     background-repeat: no-repeat;
     margin: 0 15px;
 }

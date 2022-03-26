@@ -1,5 +1,5 @@
 main .banner-index {
-    background: url(./Assets/Images/banner_index.png) 50% 0 no-repeat;
+    background: url(../Assets/Images/banner_index.png) 50% 0 no-repeat;
     max-width: 1440px;
     height: 638px;
     margin-bottom: 75px;
@@ -68,7 +68,7 @@ article h1 {
 }
 
 main .bg2_index {
-    background: url(./Assets/Images/imagem2_index.png) 50% 0 no-repeat;
+    background: url(../Assets/Images/imagem2_index.png) 50% 0 no-repeat;
     max-width: 1440px;
     height: 772px;
 }
