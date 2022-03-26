@@ -1,0 +1,110 @@
+main .banner-index {
+    background: url(./Assets/Images/banner_index.png) 50% 0 no-repeat;
+    max-width: 1440px;
+    height: 638px;
+    margin-bottom: 75px;
+
+}
+main .banner-index h2 {
+    display: block;
+    float: right;
+    margin: 0 100px 302px auto;
+    padding-top: 166px;
+    font-size: 70px;
+    width: 419px;
+    height: 170px;
+    font-weight: 700px;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+article h1 {
+    display: block;
+    text-align: center;
+    margin: 0 305px 69px;
+    color: #FFA000;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+}
+
+
+.reciepts-containter {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.reciept-card {
+    margin-bottom: 168px;
+}
+
+.reciept-card img {
+    width: 345px;
+    height: 342px;
+    display: block;
+
+}
+
+.reciept-card span {
+    display: block;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.reciept-card a {
+    display: block;
+    color: #fff;
+    background: #176902;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px 43px;
+    text-decoration: none;
+    margin: 24px 80px;
+}
+
+main .bg2_index {
+    background: url(./Assets/Images/imagem2_index.png) 50% 0 no-repeat;
+    max-width: 1440px;
+    height: 772px;
+}
+
+main .bg2_index h3 {
+    margin: 0 730px 73px 122px;
+    padding: 166px 0 73px;
+    font-size: 65px;
+    width: 588px;
+    height: 96px;
+    font-weight: 700px;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+main .bg2_index p {
+    margin: 0 893px 107px 122px;
+    font-size: 24px;
+    width: 415px;
+    height: 333px;
+    font-weight: 500px;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 768px) {  
+    .reciept-card {
+        margin: 0 30px 50px;
+    }
+
+    article h1 {
+        text-align: center;
+        margin: 0 auto 69px;
+        color: #FFA000;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 67px;
+    }
+}

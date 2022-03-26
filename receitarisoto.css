@@ -1,0 +1,103 @@
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+    Justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.content {
+    margin: 104px auto auto 120px;
+    width: min-content;
+    height:auto;
+
+}
+
+.content h1 {
+    margin-top: 0;
+    color: #FFA000;
+}
+
+.img {
+    width: 592px;
+    height: 311px;
+}
+
+.buttons {
+    margin: 25px 20px 0 0;
+}
+.buttons span{
+    border: 1px solid #176902;
+    border-radius: 20px 20px 20px 20px;
+    padding: 5px 20px 0 20px;
+    margin-right: 20px;
+    color: #176902;
+    background-color: #fff;
+    font-weight: 500;
+}
+
+.ingredients {
+    margin-top: 65px;
+}
+
+.ingredients ul {
+    padding: 0 0 0 0;
+}
+
+.ingredients ul li {
+    list-style: none;
+}
+
+.video {
+    margin-top: 60px;
+}
+
+.video h4 {
+    margin: 0 0 37px 0;
+}
+
+.prepare {
+    margin-top: 60px;
+    margin-bottom: 180px;
+    margin-right: auto;
+}
+
+.prepare h4 {
+    margin-bottom: 30px;
+}
+
+.related {
+    margin: 150px 191px auto 96px;
+
+}
+
+.related h2 {
+    color: #FFA000;
+    font-weight: 400;
+    margin-bottom: 27px;
+}
+
+.related .recieptimg {
+    width: 345px;
+    height: 342px;
+}
+
+.related h3 {
+    border: 1px solid #fff;
+    box-shadow: 0px 2px 8px -3px  rgb(129, 129, 129);
+    margin-top: -5px;
+    margin-bottom: 62px;
+    text-align: center;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    font-weight: 600;
+}
+
+.reciept a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+
